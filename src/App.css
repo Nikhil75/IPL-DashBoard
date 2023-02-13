@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Bree Serif';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ipl-dashboard-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ipllogo {
+  height: 10vh;
+  margin-right: 10px;
+}
+.ipl-logo-dashboard {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.ipl-dash-board {
+  font-size: 50px;
+}
